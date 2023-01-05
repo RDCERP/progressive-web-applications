@@ -10,17 +10,19 @@
     "build": "cd client && npm run build",
     "install": "cd client && npm install",
     "client": "cd client && npm start"
- 
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "i": "^0.3.7",
+    "idb": "^7.1.1",
     "if-env": "^1.0.4"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
+    "html-webpack-plugin": "^5.5.0",
     "nodemon": "^2.0.4"
   }
 }
